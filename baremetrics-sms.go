@@ -1,5 +1,5 @@
 /**
- * Baremetrics CLI Client
+ * Baremetrics SMS
  *
  * I'm a go newb - so sorry about this in advance. I'd love
  * feedback on what I could do better though. :-)
