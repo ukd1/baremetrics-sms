@@ -1,0 +1,35 @@
+{
+  "name": "baremetrics-sms",
+  "description": "Use some badly written go, twilio and baremetrics to keep your team up to date with an MRR SMS!",
+  "website": "https://github.com/ukd1/baremetrics-sms",
+  "repository": "https://github.com/ukd1/baremetrics-sms",
+  "keywords": [
+    "baremetrics",
+    "stripe",
+    "sms",
+    "metrics",
+    "team"
+  ],
+  "success_url": "https://github.com/ukd1/baremetrics-sms",
+  "env": {
+    "BUILDPACK_URL": "https://github.com/kr/heroku-buildpack-go.git",
+    "PHONE_NUMBERS": {
+      "description": "Comma seperated list of phone numbers: e.g. +16505554321,+16505551234"
+    },
+    "TWILIO_SID": {
+      "description": "Your Twilio SID"
+    },
+    "TWILIO_TOKEN": {
+      "description": "Your Twilio Auth Token"
+    },
+    "TWILIO_FROM": {
+      "description": "The 'from' phone number from twilio"
+    },
+    "BAREMETRICS_COOKIE": {
+      "description": "Your baremetrics cookie. Login, then copy it out of the chrome inspector"
+    }
+  },
+  "addons": [
+    "scheduler:standard"
+  ]
+}
