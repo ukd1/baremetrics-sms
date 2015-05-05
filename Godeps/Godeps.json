@@ -1,0 +1,14 @@
+{
+	"ImportPath": "baremetrics-sms",
+	"GoVersion": "go1.4.2",
+	"Deps": [
+		{
+			"ImportPath": "github.com/jmoiron/jsonq",
+			"Rev": "7c27c8eb9f6831555a4209f6a7d579159e766a3c"
+		},
+		{
+			"ImportPath": "github.com/sfreiberg/gotwilio",
+			"Rev": "b7230c284bd0c1614c94d00b9998c49f9a2737d8"
+		}
+	]
+}
