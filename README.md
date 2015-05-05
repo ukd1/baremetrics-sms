@@ -19,7 +19,7 @@ Click this button, then fill in the details from above:
 ### Configure
 
 1. Manage the app (aka open the Heroku Dashboard for the app you just created)
-2. Click on the Scheduler addon
+2. Click on the ``Heroku Scheduler`` addon
 3. Add a schedule
 4. Select the time you want, enter ``/app/bin/baremetrics-sms`` as the command
 
