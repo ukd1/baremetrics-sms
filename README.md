@@ -1,6 +1,6 @@
 # Baremetrics SMS
 
-A simple Heroku deployable app which will SMS you and your team with updates on your MRR and growth.
+A simple Heroku deployable app which will SMS you and your team with updates on your MRR and growth. Read more about [Baremetrics SMS](https://rsmith.co/baremetrics-sms-9a3329208b9b).
 
 Requirements:
 * a heroku account
